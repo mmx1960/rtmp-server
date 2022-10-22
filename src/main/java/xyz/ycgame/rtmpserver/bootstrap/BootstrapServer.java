@@ -192,19 +192,4 @@ public class BootstrapServer {
         return Epoll.isAvailable();
     }
 
-
-//    @Data
-//    @Builder
-//    public static class BootstrapServerBuilder {
-//
-//        private Integer backLog;
-//
-//        private Integer listenPort;
-//
-//        private Integer bossGroupThread;
-//
-//        private Integer serverSelectorThreads;
-//
-//        private ChannelHandler bizChannelHandler;
-//    }
 }
